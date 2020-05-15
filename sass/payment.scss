@@ -1,0 +1,125 @@
+@import 'responsive.sсss';
+
+.payment {
+
+	&__holder {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		border-bottom: 1px solid #dad8df;
+		padding-top: 31px;
+		padding-bottom: 16px;
+	}
+
+	&__content,
+	&__block {
+		margin-bottom: 15px;
+	}
+
+	&__content {
+		padding-right: 14px;
+	}
+
+	&__balance {
+		font-size: 16px;
+		line-height: 1.5;
+		color: #141414;
+		text-transform: uppercase;
+		font-weight: 200;
+	}
+
+	&__price {
+		font-size: 14px;
+		color: #141414;
+		font-weight: 200;
+		padding-top: 10px;
+		span {
+			font-size: 36px;
+		}
+	}
+
+	&__block {
+		max-width: 115px;
+	}
+
+	&__btn {
+		cursor: pointer;
+		font: inherit;
+		display: block;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #3dce66;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	&__need {
+		font-size: 12px;
+		line-height: 2;
+		color: #141414;
+		text-transform: uppercase;
+		padding-top: 15px;
+		span {
+			text-transform: none;
+		}
+	}
+
+	&__wrap {
+		padding-top: 10px;
+	}
+
+	&__item {
+		border-top: 1px solid blue;
+		background-color: #f7f7f7;
+		padding: 20px 24px;
+		padding-bottom: 18px;
+		margin-top: 30px;
+		@include media(sm) {
+			padding: 15px;
+		}
+	}
+
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		.payment__box {
+			margin-bottom: 20px;
+		}
+		.payment__box:first-child {
+			padding-right: 40px;
+		}
+	}
+
+	&__title {
+		font-size: 12px;
+		line-height: 1.2;
+		color: #ababab;
+		text-transform: uppercase;
+		padding-bottom: 6px;
+	}
+
+	&__data {
+		font-size: 16px;
+		line-height: 1.5;
+		color: #141414;
+		font-weight: 200;
+	}
+
+	&__status {
+		font-size: 16px;
+		line-height: 1.5;
+		color: #3dce66;
+		font-weight: 200;
+		text-transform: uppercase;
+	}
+
+	&__count {
+		font-size: 16px;
+		line-height: 1;
+		color: #141414;
+		font-weight: 200;
+		span {
+			font-size: 30px;
+		}
+	}
+}

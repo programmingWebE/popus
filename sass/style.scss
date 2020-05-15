@@ -1,0 +1,51 @@
+@import 'responsive.sсss';
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(./img/map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	overflow-x: hidden;
+	font-family: "Montserrat";
+
+}
+	
+.container {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	&--inner {
+		max-width: 1220px;
+		padding: 0 10px;
+	}
+	&--cabinet {
+		max-width: 1530px;
+		padding: 0 10px;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+@import 'reset';
+@import 'login';
+@import 'cabinet';
+@import 'equipment';
+@import 'plan';
+@import 'payment';
+@import 'popup'

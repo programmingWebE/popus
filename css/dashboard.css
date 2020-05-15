@@ -1,0 +1,26 @@
+.dashboard__wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-top: 12px;
+}
+
+.dashboard__item {
+	background-color: #fff;
+	border-top: 2px solid #1C68A6;
+	padding: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 33px;
+}
+
+.dashboard__item--task {
+	width: 277px;
+	margin-right: 32px;
+}
+
+.dashboard__item--content {
+	width: -webkit-calc(100% - 309px);
+	width: calc(100% - 309px);
+}
+

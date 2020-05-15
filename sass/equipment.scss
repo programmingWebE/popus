@@ -1,0 +1,17 @@
+@import 'responsive.sсss';
+
+.equipment {
+	&__item {
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0);
+		background-color: #f7f7f7;
+		border-top: 1px solid blue;
+		padding: 23px;
+		margin-top: 25px;
+		p {		
+			font-size: 14px;
+			line-height: 1.7;
+			color: #333333;
+			padding-bottom: 8px;
+		}
+	}
+}
